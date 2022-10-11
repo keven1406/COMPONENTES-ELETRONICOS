@@ -1,0 +1,22 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>COMPONENTES</title>
+	</head>
+	<body>
+
+	</body>
+	<script>
+		function transistor (base, corrente) {
+			if (base == 0) {
+				return null;
+			} else {
+				return corrente + "v Entra no emissor e sair pelo coletor " + corrente + "v";
+			}
+		};
+		var coletor = transistor(5, 10);
+		console.log(coletor);
+		console.log(transistor(0));
+	</script>
+
+</html>
